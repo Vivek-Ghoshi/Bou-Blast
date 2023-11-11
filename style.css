@@ -1,0 +1,1055 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+#full{
+    width: 350px;
+    height: 50px;
+   background-color: #f27a92fe;
+   display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 50px 20px;
+    right: 10%;
+    text-transform: capitalize;
+    color: white;
+    top: -100%;
+
+
+
+}
+#top{
+    width: 100%;
+    display: flex;
+    background-color: #FFDAE2;
+    justify-content: space-around;
+    align-items: center;
+    font-family: gilroy;
+    letter-spacing: 3px;
+    padding: 10px 300px;
+    margin-bottom: 40px;
+}
+#top1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    color: #FEA5B7;
+    margin-left: 100px;
+}
+#top2 span{
+   padding: 9px 7px;
+   background-color: #FEA5B7; 
+}
+#top-text{
+    width: 100%;
+    align-items: center;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14%;
+    margin-left: 25px;
+}
+
+#top-text h1{
+    font-size: 5vw;
+   line-height: 88px;
+   word-spacing: 5px;
+   display: inline-block;
+   
+}
+
+#top-text #cont :nth-child(1){
+    color: #fc4d70;
+}
+#top-text #cont :nth-child(2){
+    color: #fe9baf;
+}
+#top-text #cont :nth-child(3){
+    color: #C5A9E4;
+}
+#top-text #cont :nth-child(4){
+    color: #fc4d70;
+}
+#top-text #cont :nth-child(5){
+    color: #ff8f18ce;
+}
+#top-text #cont :nth-child(6){
+    color: lightpink;
+}
+#top-text #cont :nth-child(7){
+    color: #cbabf0;
+}
+#top-text #cont :nth-child(8){
+    color: pink;
+}
+#top-text h4{
+    width: 100%;
+   color: #FEA5B7;
+    text-transform: uppercase;
+   letter-spacing: 9px;
+   padding-left: 85px;
+   word-spacing: 5px;
+   font-family: gilroy;
+}
+#icon{
+    width: 10px;
+   font-size: 35px;
+   font-weight: 400;
+   color: #C5A9E4;
+   margin-bottom: 30px;
+}
+#nav{
+    width: 100%;
+    background-color: #FFDAE2;
+    color: #fe9baf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    gap: 80px;
+    font-family: gilroy;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+#nav h5:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    transition:  all ease 0.1s;
+}
+#center{
+    width: 100%;
+    background-color: #FEA5B7;
+    display: flex;
+}
+#center-left{
+    width: 50%;
+}
+#img-div{
+    height: 340px;
+    width: 280px;
+    background-image: url(https://i.pinimg.com/564x/51/6b/12/516b12956b9759b52ec58e8c542c47b4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 250px;
+    border: 4px solid white;
+}
+#center-right{
+    width: 50%;
+    text-align: center;
+    margin-right: 250px;
+}
+#center-right h3{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: Kimberly Signature;
+    padding-top: 70px;
+    font-size: 50px;
+    color: #fc4d70;
+    
+}
+#center-right h1{
+    font-family: Rose Quay;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 60px; 
+    margin-top: 20px;
+    letter-spacing: 3px;
+    display: inline;
+}
+#center-right h1:nth-child(1){
+    color: #fc4d70;
+}
+#center-right h1:nth-child(2){
+    color: #ff8f18f5;
+}
+#center-right h1:nth-child(3){
+    color: #b68ae9;
+}
+#center-right h1:nth-child(5){
+    color: #fc4d70;
+}
+#center-right h1:nth-child(6){
+    color: #be93ef;
+}
+#center-right h1:nth-child(7){
+    color: #f89d3bfd;
+}
+#center-right h1:nth-child(8){
+    color: #fc4d70e4;
+}
+#center-right h1:nth-child(9){
+    color: #ff8f18f5;
+}
+#center-right h1:nth-child(10){
+    color: #bb88f5;
+}
+#center-right h1:nth-child(11){
+    color: #f49f43f5;
+}
+#center-right h1:nth-child(12){
+    color: #fc4d70;
+}
+
+#center-right h2{
+   padding: 10px 0;
+   font-family: Rose Quay;
+   letter-spacing: 3px;
+   color: #ff8f18f5;
+}
+#center-right button{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #b381ec;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    font-family: Rose Quay;
+}
+#intro-text{
+    width: 65%;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+}
+#intro-text h2{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 215px;
+    text-transform: capitalize;
+    color: #ff8f18f5;
+    font-size: 30px;
+    font-family: voyage;
+}
+#intro-text p{
+    width: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-bottom: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    color:  #C5A9E4;   
+}
+#discription{
+    width: 100%;
+    background-color: #FFDAE2;
+}
+#discription h3{
+    font-family: voyage;
+    padding-left: 550px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-top: 20px;
+ color: #fc4d70;
+}
+#disp-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   margin-top: 30px;
+ 
+}
+#disp-img #fist{
+    width: 30%;
+    height: 400px;
+    background-color: #fe9baf;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#disp-img #fist #img1:hover{
+    scale: 1.2;
+    transition: all ease 1s;
+}
+#disp-img #second{
+    width: 30%;
+    height: 400px;
+    background-color: #fe9baf;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#disp-img #second #img2:hover{
+        scale: 1.2;
+        transition: all ease 1s;
+    }
+#disp-img #third{
+    width: 30%;
+    height: 400px;
+    background-color: #fe9baf;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#disp-img #third #img3:hover{
+        scale: 1.2;
+        transition: all ease 1s;
+
+    }
+
+#fist #img1{
+    width: 280px;
+    height: 300px;
+    background-image: url(https://i.pinimg.com/474x/de/2c/9d/de2c9d27e4a28e83069720df595c4e04.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid whitesmoke;
+    overflow: hidden;
+
+}
+
+
+#second #img2{
+    width: 280px;
+    height: 300px;
+    background-color: #9bfeab;
+    background-image: url(https://i.pinimg.com/564x/2f/02/48/2f0248c231afc01c650a96b09f45037a.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid whitesmoke; 
+    overflow: hidden;   
+}
+#third #img3{
+    width: 280px;
+    height: 300px;
+    padding-bottom: 30px;
+    background-image: url(https://i.pinimg.com/564x/10/9e/ea/109eeadeeae61555311eb0686894b7cd.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid whitesmoke;
+    overflow: hidden;
+}
+
+#button{
+    width: 100%;
+    background-color: #FFDAE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button button{
+    width: 140px;
+    height: 30px;
+    background-color:  #ff8f18f5;
+   margin: 25px 0;
+   color: white;
+   font-weight: 400;
+   cursor: pointer;
+   font-family: Rose Quay;
+   letter-spacing: 3px;
+   border: none;
+}
+#summery{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+#summery #one{
+    width: 280px;
+    height: 200px;
+    background-color: #fc4d70;
+}
+#summery #one h2{
+    font-family: Kimberly Signature;
+    font-weight: 100;
+    color: white;
+    font-size: 75px;
+    padding-top: 10px;
+    padding-left: 120px
+}
+   
+#summery #one h1{
+    font-family: Rose Quay;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#summery #two{
+    width: 280px;
+    height: 200px;
+   background-color: #C5A9E4;
+}
+#summery #two h2{
+    font-family: Kimberly Signature;
+    font-weight: 200;
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-left: 120px
+}
+#summery #two h1{
+    font-family: Rose Quay;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 9px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#summery #three{
+    width: 280px;
+    height: 200px;
+    background-color: #fe8aa1d5;
+}
+#summery #three h2{
+    font-family: Kimberly Signature;
+    font-weight: 200;
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-left: 120px
+}
+#summery #three h1{
+    font-family: Rose Quay; 
+   font-weight: 900;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#summery #four{
+    width: 280px;
+    height: 200px;
+    background-color: #ff8f18f5;
+}
+
+#summery #four h2{
+    font-family: Kimberly Signature;
+    text-transform: capitalize;
+    font-weight: 200;
+    color: white;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-left: 120px
+}
+#summery #four h1{
+    font-family: Rose Quay;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 70px;
+    letter-spacing: 3px;
+}
+#bestsellers{
+    width: 100%;
+    background-color: #FFEDEC;
+    margin-top: 35px;
+    align-items: center;
+       
+}
+#bestsellers h2{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: Rose quay;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    padding: 30px 0px;
+    color: #FFA857;
+    text-transform: capitalize;
+}
+#photo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* overflow: hidden; */
+}
+#bestsellers #ek{
+    width: 320px;
+    height: 450px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+#photo #ek img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#ek img:hover{
+    scale: 1.2;
+    
+  }
+#bestsellers #do{
+    width: 320px;
+    height: 450px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+#photo #do img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+#do img:hover{
+    scale: 1.2;
+    
+  }
+#bestsellers #teen{
+    width: 320px;
+    height: 450px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+#photo #teen img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#teen img:hover{
+    scale: 1.2;
+    
+  }
+#bestsellers #char{
+    width: 320px;
+    height: 450px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    overflow: hidden; 
+     
+}
+#photo #char img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#char img:hover{
+  scale: 1.2;
+  
+}
+#rate{
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;    
+}
+#rate h4{
+   width: 100%;
+   margin-bottom: 30px;
+}
+#shop{
+    width: 100%;
+
+}
+#shop button{
+    width: 140px;
+    height: 40px;
+    font-family: Rose quay;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #FFA857;
+    margin-left: 610px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+#page7{
+    width: 100%;
+    display: flex;
+}
+#page7 #left{
+    width: 50%;
+    background-color: #FFEDEC;
+    text-align: center;
+}
+#page7 #left img{
+    width: 600px;
+    height: 700px;
+   background-size: cover;
+   padding: 30px 0px;
+  
+}
+#page7 #left h2{
+    position: absolute;
+    font-family: Kimberly Signature;
+    font-size: 70px;
+    color:#FFA857;
+    margin-right: 400px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transform: rotatex('50deg') rotate3d(35deg);
+}
+#page7 #right{
+    width: 50%;
+}
+#page7 #right h2{
+    font-size: 50px;
+    font-family: Love Craft;
+    font-weight: 600;
+   padding: 30px 60px;
+   text-transform: uppercase;
+   color: palevioletred;
+}
+#page7 #right p{
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: gilroy;
+}
+#page7 #right button{
+    width: 150px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #FFA857;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    letter-spacing: 1px;
+
+}#page8{
+    width: 100%;
+    background-color:  #FFEDEC;
+    background: linear-gradient( to bottom #fe9bafe0,#fcc3cf91);
+    display: flex;
+}
+#page8 #left{
+    width: 45%;
+    position: relative;
+}
+#page8 #left :nth-child(1){
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    border: 6px solid white;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+#page8 #left :nth-child(2){
+    width: 280px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 6px solid white;
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+#page8 #right{
+    width: 55%;
+    text-align: center;
+}
+#page8 #right h3{
+    padding-top: 80px;
+    padding-left: 50px;
+    color: #fc4d70;
+    font-family: Kimberly signature;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+#page8 #right h2{
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #fd8718;
+    font-family: rose quay;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+#page8 #right #colours{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: rose quay;
+    margin-left: 110px;
+}
+#page8 #right #colours h1:nth-child(1){
+    color: #fc4d70;
+}
+#page8 #right #colours h1:nth-child(2){
+    color: #ff8f18f5;
+}
+#page8 #right #colours h1:nth-child(3){
+    color: #b68ae9;}
+#page8 #right #colours h1:nth-child(4){
+    color: #f89d3bfd;
+}
+#page8 #right #colours h1:nth-child(5){
+    color: #fc4d70;
+}
+#page8 #right #colours h1:nth-child(6){
+    color: #be93ef;
+}
+#page8 #right #colours h1:nth-child(7){
+    color: #f89d3bfd;
+}
+#page8 #right #colours h1:nth-child(8){
+    color: #fc4d70e4;
+}
+#page8 #right #colours h1:nth-child(9){
+    color: #ff8f18f5;
+}
+#page8 #right #colours h1:nth-child(10){
+    color: #bb88f5;
+}
+#page8 #right  p{
+    padding: 10px 50px;
+    font-family: gilroy;
+    opacity: 0.7;
+    line-height: 30px;
+}
+#page8 #right  button{
+    padding: 10px 50px;
+    font-family: gilroy;
+    margin-top: 40px;
+    border: none;
+    background-color: #f87993;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+#page9{
+    width: 100%;
+    background-color: #FFEDEC;
+    margin-top: 35px;
+}
+#page9 #colors{
+    display: flex;
+  font-size: 45px;
+  padding-top: 40px;
+  text-align: center;
+  padding-left: 440px;
+  text-transform: uppercase;
+  font-family: rose quay;
+  letter-spacing: 1px;
+}
+#page9 #colors h1:nth-child(1){
+    color: #fc4d70;
+}
+#page9 #colors  h1:nth-child(2){
+    color: #ff8f18f5;
+}
+#page9 #colors h1:nth-child(3){
+    color: #b68ae9;}
+#page9 #colors h1:nth-child(4){
+    color: #f89d3bfd;
+}
+#page9 #colors h1:nth-child(5){
+    color: #fc4d70;
+}
+#page9 #colors h1:nth-child(6){
+    color: #be93ef;
+}
+#page9 #colors h1:nth-child(7){
+    color: #f89d3bfd;
+}
+#page9 #colors h1:nth-child(8){
+    color: #fc4d70e4;
+}
+#page9 #colors h1:nth-child(9){
+    color: #ff8f18f5;
+}
+#page9  p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    font-family: gilroy;
+    opacity: 0.5;
+}
+#page9 .btn{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#page9 .btn button:nth-child(1){
+    margin-bottom: 20px;
+    width: 220px;
+    height: 40px;
+    margin-left: 510px;
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    gap: 20px;
+}
+#page9 .btn button:nth-child(2){
+    margin-bottom: 20px;
+    width: 70px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #fd8718;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+#page10{
+    width: 100%;
+    background-color: #FFEDEC;
+}
+#page10 h3{
+    font-family: Kimberly signature;
+    font-size: 60px;
+    color: #ff8f18f5;
+    margin-top: 50px;
+    font-weight: 300;
+    margin-left: 520px;
+    letter-spacing: 2px;
+    padding-top: 70px;
+}
+#page10 #insta{
+    display: flex;
+    font-family: rose quay;
+    font-size: 50px;
+    margin-left: 370px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#page10 #insta h1:nth-child(1){
+    color: #fc4d70;
+}
+#page10 #insta  h1:nth-child(2){
+    color: #ff8f18f5;
+}
+#page10 #insta h1:nth-child(3){
+    color: #b68ae9;}
+#page10 #insta h1:nth-child(4){
+    color: #f89d3bfd;
+}
+#page10 #insta h1:nth-child(5){
+    color: #fc4d70;
+}
+#page10 #insta h1:nth-child(6){
+    color: #be93ef;
+}
+#page10 #insta h1:nth-child(7){
+    color: #f89d3bfd;
+}
+#page10 #insta h1:nth-child(8){
+    color: #fc4d70e4;
+}
+#page10 #insta h1:nth-child(9){
+    color: #ff8f18f5;
+}
+#page10 #sunder{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    
+}
+#page10 #sunder .ract{
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+#page10 #sunder::-webkit-scrollbar{
+    display: none;
+}
+#page10 #sunder .ract img{
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+#page10 #sunder .ract video{
+    width: 300px;
+    height: 350px;
+   object-fit: cover;
+}
+#footer{
+    width: 100%;
+    background-color: #FFEDEC;
+    display: flex;
+    margin-bottom: 30px;
+}
+#footer #left{
+    width: 30%;
+    background-color: #FFEDEC;
+   
+}
+#footer #left h3{
+    font-family: kimberly signature;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 169px;
+    color: #fd8718;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#footer #left h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 169px;
+    text-transform: capitalize;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#footer #bech{
+    width: 40%;
+    background-color: #FFEDEC;
+    margin-bottom: 30px;
+}
+#logo-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#logo-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+    background-color: white;
+   object-fit: contain;
+   position: relative;
+   animation-name: rotate;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-direction: forword;
+}
+@keyframes rotate {
+    from{
+        scale: 1;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#footer #bech h3{
+margin-left: 120px;
+    color: #fd8718;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+   
+    
+}
+
+#footer #right{
+    width: 30%;
+    background-color: #FFEDEC;
+    
+}
+#footer #right h3{
+    font-family: kimberly signature;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 69px;
+    color: #fd8718;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#footer #right h4{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 69px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+#footer #bech #btm{
+    display: flex;
+    gap: 20px;
+    
+}
+#btm :nth-child(1){
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+}
+#btm :nth-child(2){
+    width: 60px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #fd8718;
+    font-family: rose quay;
+ margin-top: 30px;
+ border: none;
+ 
+}
+
+
+
